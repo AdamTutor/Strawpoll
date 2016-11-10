@@ -1,0 +1,24 @@
+var poll_data = {
+    "Question_1": {
+        "ques": "Pepsi or Coke?",
+        "option_1": {
+            "name": "Pepsi",
+            "count": "0"
+        },
+        "option_2": {
+            "name": "Coke",
+            "count": 0
+        }
+    },
+    "Question_2": {
+        "ques": "Pepsi or Coke?",
+        "option_1": {
+            "name": "Pepsi",
+            "count": "0"
+        },
+        "option_2": {
+            "name": "Coke",
+            "count": 0
+        }
+    }
+}
