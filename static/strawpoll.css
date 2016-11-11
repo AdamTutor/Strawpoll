@@ -47,3 +47,10 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
+.boxed {
+  border: 1px;
+  border-color: black;
+  border-style: ridge;
+  height: 500px;
+  width: 500px;
+}
