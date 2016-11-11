@@ -1,24 +1,37 @@
-var poll_data = {
-    "Question_1": {
-        "ques": "Pepsi or Coke?",
-        "option_1": {
-            "name": "Pepsi",
-            "count": "0"
-        },
-        "option_2": {
-            "name": "Coke",
-            "count": 0
-        }
-    },
-    "Question_2": {
-        "ques": "Pepsi or Coke?",
-        "option_1": {
-            "name": "Pepsi",
-            "count": "0"
-        },
-        "option_2": {
-            "name": "Coke",
-            "count": 0
-        }
-    }
-}
+{"data": [{
+    "question": "Pepsi or Coke?",
+    "choices": [{
+        "label": "Pepsi",
+        "votes": 1
+    }, {
+        "label": "Coke",
+        "votes": 2
+    }]
+}, {
+    "question": "Mtn Dew or Mello Yello?",
+    "choices": [{
+        "label": "Mtn Dew",
+        "votes": 1
+    }, {
+        "label": "Mello Yello",
+        "votes": 2
+    }]
+}, {
+    "question": "Donald or Hillary?",
+    "choices": [{
+        "label": "Donald",
+        "votes": 1
+    }, {
+        "label": "Hillary",
+        "votes": 2
+    }]
+}, {
+    "question": "Goku or Superman",
+    "choices": [{
+        "label": "Superman",
+        "votes": 1
+    }, {
+        "label": "Goku",
+        "votes": 2
+    }]
+}]}
