@@ -1,4 +1,7 @@
-body {margin:0;}
+body {
+  margin:0;
+  background-image: url("flag.jpeg");
+}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -48,12 +51,14 @@ ul.topnav li.icon {display: none;}
   }
 }
 .boxed {
-  border: 1px;
+  background-image: url("post_it.png");
+  /*border: 1px;
   border-color: black;
-  border-style: ridge;
+  border-style: ridge;*/
   height: 500px;
   width: 500px;
 }
 #buttons {
   display:inline-block;
+
 }
