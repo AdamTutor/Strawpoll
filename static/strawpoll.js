@@ -11,7 +11,7 @@ function draw() {
   box.append("<input type='radio' name='choice' value ='pepsi'>"+  strawpolls[num].choices[0].label+ "<br>")
   box.append("<input type='radio' name='choice' value ='coke'>"+  strawpolls[num].choices[1].label)
 
-}
+};
 
 $(document).ready(function() {
     $("#b3").click(function(){
