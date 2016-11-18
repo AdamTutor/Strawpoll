@@ -8,9 +8,16 @@ function draw() {
   box.empty();
   box.append("<p>POLL</p>")
   box.append("<p>"+ strawpolls[num].question+"</p>");
-  box.append("<input type='radio' name='choice' value ='pepsi'>"+  strawpolls[num].choices[0].label+ "<br>")
-  box.append("<input type='radio' name='choice' value ='coke'>"+  strawpolls[num].choices[1].label)
+  Object.keys(strawpolls[num].choices).forEach(function(c) {
+    box.append("<input type='radio' name='choice' value='" + c + "'>"+ c + "<br>")
+  });
+};
 
+function drawResults(){
+  box.empty();
+  Object.keys(strawpolls[num].choices).forEach(function(c) {
+    box.append("<p>" + c + ": "+ strawpolls[num].choices[c] + "</p>")
+  });
 };
 
 $(document).ready(function() {
@@ -24,6 +31,10 @@ $(document).ready(function() {
 
       draw();
     });
+    $("#b2").click(function(){
+      vote(..., ...)
+      drawResults()
+    });
 
     $.getJSON('strawpolls').done(function(json) {
         strawpolls = json.data;
@@ -31,6 +42,8 @@ $(document).ready(function() {
         draw();
     });
 });
+
+
 
 
 
