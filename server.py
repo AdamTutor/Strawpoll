@@ -1,14 +1,17 @@
 from flask import Flask, json, jsonify
 app = Flask(__name__)
 
+
 @app.route("/strawpolls")
 def polls():
     return jsonify(json.load(open("static/strawpolls.json")))
+
 
 @app.route("/strawpolls/<int:id>")
 def votes(id):
     polls = json.load(open("static/strawpolls.json"))
     return jsonify(polls['data'][id])
+
 
 @app.route("/")
 def root():
