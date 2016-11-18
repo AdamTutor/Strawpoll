@@ -3,6 +3,10 @@ var strawpolls;
 var num = 0;
 var box = $(".boxed");
 
+function vote(){
+  "..."
+}
+
 
 function draw() {
   box.empty();
@@ -32,7 +36,7 @@ $(document).ready(function() {
       draw();
     });
     $("#b2").click(function(){
-      vote(..., ...)
+      // vote(..., ...)
       drawResults()
     });
 

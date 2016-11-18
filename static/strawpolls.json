@@ -1,1 +1,28 @@
-{"data": [{"choices": [{"label": "Pepsi", "votes": 1}, {"label": "Coke", "votes": 2}], "question": "Pepsi or Coke?"}, {"choices": {"Mello Yello": 2, "Mtn Dew": 2}, "question": "Mtn Dew or Mello Yello?"}, {"choices": [{"label": "Donald", "votes": 1}, {"label": "Hillary", "votes": 2}], "question": "Donald or Hillary?"}, {"choices": [{"label": "Superman", "votes": 1}, {"label": "Goku", "votes": 2}], "question": "Goku or Superman"}]}
+{
+    "data": [{
+        "choices": {
+            "Pepsi": 1,
+            "coke": 2
+        },
+        "question": "Pepsi or Coke?"
+    }, {
+        "choices": {
+            "Mello Yello": 2,
+            "Mtn Dew": 2
+        },
+        "question": "Mtn Dew or Mello Yello?"
+    }, {
+        "choices": {
+            "Donald": 1,
+            "Hillary": 2
+        },
+        "question": "Donald or Hillary?"
+    }, {
+        "choices": {
+            "Superman": 1,
+            "Goku": 2
+        },
+
+        "question": "Goku or Superman"
+    }]
+}
