@@ -1,6 +1,6 @@
 var strawpolls;
 var num = 0;
-var box = $(".boxed");
+var box = $("#poll");
 
 function draw() {
     box.empty();
@@ -50,6 +50,9 @@ $(document).ready(function() {
         draw();
     });
 });
+
+
+
 
 
 

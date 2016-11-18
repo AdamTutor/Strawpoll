@@ -57,8 +57,22 @@ ul.topnav li.icon {display: none;}
   border-style: ridge;*/
   height: 500px;
   width: 500px;
+
 }
 #buttons {
   display:inline-block;
+
+}
+
+/*#questions{
+position: relative;
+top: 100px;
+
+}*/
+
+
+#poll {
+position: relative;
+top: 100px;
 
 }
